@@ -14,8 +14,8 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.linkGC = ['https://wa.me/085692261162/?text=Makasih%20bang%20partha%20%F0%9F%A4%A3%F0%9F%A4%A3'] // ganti jadi group lu
-global.owner = ['6287892711054', '6285692261162', '6285692261162'] // Masukan nomot kalian
-global.mods = ['6287892711054', '6285692261162'] // Moderator
+global.owner = ['6285692261162', '6285692261162', '6285692261162'] // Masukan nomot kalian
+global.mods = ['6285692261162', '6285692261162'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -79,7 +79,7 @@ global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mere
 global.eror = '_*Error*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
-global.watermark = '©shirobotz' //change the watermark (beberapa harus manual)
+global.watermark = '©bott-ol kecap' //change the watermark (beberapa harus manual)
 
 // Ubah saja
 global.image = 'https://telegra.ph/file/43a5bfd09e6c7e9a8055f.jpg'
