@@ -13,9 +13,9 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.linkGC = ['https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
-global.owner = ['6287892711054', '6287892711054', '6287892711054'] // Masukan nomot kalian
-global.mods = ['6287892711054', '6287892711054'] // Moderator
+global.linkGC = ['https://wa.me/085692261162/?text=Makasih%20bang%20partha%20%F0%9F%A4%A3%F0%9F%A4%A3'] // ganti jadi group lu
+global.owner = ['6287892711054', '6285692261162', '6285692261162'] // Masukan nomot kalian
+global.mods = ['6287892711054', '6285692261162'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -69,8 +69,8 @@ fs.watchFile(file_exif, () => {
   require('./lib/exif.json')
 })
 
-global.packname = sticker_name
-global.author = sticker_author
+global.packname = partboy
+global.author = by partha
 
 // silakan di ganti klo mau
 global.wait = '_Wait.._'
